@@ -4576,7 +4576,7 @@ client.sendButImg(m.chat, anu, client.user.name, global.thumb, btn)
 break
 default:
 if (buddy.includes(`curhat`)) {
-m.reply(`Ada apa sih sayang, sini dong cerita apa masalahnya`)
+m.reply(`Ada apa sih kawan, sini dong cerita apa masalahnya`)
 }
 if (buddy.includes(' cok')) {
 m.reply('Piye cok?');
