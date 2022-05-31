@@ -4575,38 +4575,12 @@ client.sendButImg(m.chat, anu, client.user.name, global.thumb, btn)
 }
 break
 default:
-if (buddy.includes(`mualaikum`)) {
-client.sendMessage(m.chat, { audio: global.wala, mimetype: 'audio/mpeg', ptt: true }, { quoted: m })
-}
-
-if (buddy.includes(`mu'alaikum`)) {
-client.sendMessage(m.chat, { audio: global.wala, mimetype: 'audio/mpeg', ptt: true }, { quoted: m })
-}
-
-if (buddy.includes('biasalah')){
-client.sendMessage(m.chat, { audio: global.biasa, mimetype: 'audio/mpeg', ptt: true }, { quoted: m })
-}
-
 if (buddy.includes(`curhat`)) {
 m.reply(`Ada apa sih sayang, sini dong cerita apa masalahnya`)
 }
-
 if (buddy.includes(' cok')) {
 m.reply('Piye cok?');
 }
-
-if (buddy.includes(`makasi`)) {
-client.sendMessage(m.chat, { audio: global.samasama, mimetype: 'audio/mpeg', ptt: true }, { quoted: m })
-}
-
-if (buddy.includes(`mkasi`)) {
-client.sendMessage(m.chat, { audio: global.samasama, mimetype: 'audio/mpeg', ptt: true }, { quoted: m })
-}
-
-if (buddy.includes(`terima kasih`)) {
-client.sendMessage(m.chat, { audio: global.samasama, mimetype: 'audio/mpeg', ptt: true }, { quoted: m })
-}
-
 if (budy.includes('tiktok.com/')) {
 let anu = await findUrl(budy)
 anu.forEach(async(taut, i) => {
