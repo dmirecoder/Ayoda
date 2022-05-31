@@ -4349,7 +4349,6 @@ Maker:
 📌 ${prefix}quoteit
 
 Anime:
-📌 ${prefix}hentai 
 📌 ${prefix}lolivideo 
 📌 ${prefix}waifu 
 📌 ${prefix}neko 
