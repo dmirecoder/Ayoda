@@ -626,7 +626,7 @@ user.afkReason = ''
 
 switch (ar) {
 case 'bot': {
-m.reply(`Iya sayang silahkan ketik ${prefix}menu`);
+m.reply(`Iya bos silahkan ketik ${prefix}menu`);
 }
 break
 
@@ -641,7 +641,7 @@ m.reply('Nggih');
 break
 
 case 'p': {
-if (!m.isGroup) return m.reply(`Hay ${pushname}👋, Selamat datang di Octave bot\nKetik *${prefix}menu* untuk melihat semua fitur kami`);
+if (!m.isGroup) return m.reply(`Hay ${pushname}👋, Selamat datang di Ayaka bot\nKetik *${prefix}menu* untuk melihat semua fitur kami`);
 if (isCreator) return m.reply('Salam yang bener sayang☺️');
 m.reply('Salam sing bener cok!1!1');
 }
@@ -654,7 +654,7 @@ break
 
 case 'pagi': case 'pagii': case 'morning': case 'enjing': case 'isuk': {
 if (jam >= 4 && jam <= 9) {
-m.reply(`${ar} juga sayang❤️`);
+m.reply(`${ar} juga`);
 } else if (jam >= 10 && jam <= 15) {
 m.reply(`${ar} apaan, ini mah udah siang`);
 } else if (jam >= 16 && jam <= 18) {
@@ -669,7 +669,7 @@ case 'siang': case 'siangg': case 'siank': case 'ciank': case 'ciang': case 'awa
 if (jam >= 4 && jam <= 9) {
 m.reply(`${ar} apaan, ini mah masih pagi`);
 } else if (jam >= 10 && jam <= 15) {
-m.reply(`${ar} juga sayang❤️`);
+m.reply(`${ar} juga `);
 } else if (jam >= 16 && jam <= 18) {
 m.reply(`${ar} apaan, ini mah udah sore`);
 } else {
@@ -684,7 +684,7 @@ m.reply(`${ar} apaan, ini mah masih pagi`);
 } else if (jam >= 10 && jam <= 15) {
 m.reply(`${ar} apaan, ini mah masih siang`);
 } else if (jam >= 16 && jam <= 18) {
-m.reply(`${ar} juga sayang❤️`);
+m.reply(`${ar} juga `);
 } else {
 m.reply(`${ar} apaan, ini mah udah malem`);
 };
@@ -699,7 +699,7 @@ m.reply(`${ar} apaan, ini mah masih siang`);
 } else if (jam >= 16 && jam <= 18) {
 m.reply(`${ar} apaan, ini mah masih sore`);
 } else {
-m.reply(`${ar} juga sayang❤️`);
+m.reply(`${ar} juga `);
 };
 }
 break
